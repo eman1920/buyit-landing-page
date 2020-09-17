@@ -1,0 +1,160 @@
+    @media(max-width:1045px) {
+        header {
+            background-size: contain;
+        }
+        #offers {
+            clip-path: polygon(0% 25%, 100% 10%, 100% 70%, 0% 85%);
+        }
+        #offers #phone-img {
+            height: 90%;
+        }
+    }
+    
+    @media(max-width:999px) {
+        #products .container {
+            flex-wrap: wrap;
+        }
+        #products .product {
+            width: 40%;
+            margin-bottom: 50px;
+        }
+        #features .container {
+            flex-wrap: wrap;
+        }
+        #features .feature {
+            width: 40%;
+            margin-bottom: 75px;
+        }
+    }
+    
+    @media(max-width:945px) {
+        header #landing {
+            padding-top: 4rem;
+        }
+        #offers {
+            padding: 20rem 3rem;
+        }
+    }
+    
+    @media(max-width:890px) {
+        #offers {
+            clip-path: none;
+            padding: 4rem;
+        }
+        header nav {
+            justify-content: space-between;
+        }
+        header nav #ham-nav {
+            background: none;
+            border: none;
+            display: block;
+        }
+        header nav #ham-nav:focus {
+            outline: none;
+        }
+        header nav .dropdown:hover ul {
+            cursor: pointer;
+            display: block;
+        }
+        header nav #ham-nav span {
+            display: block;
+            width: 30px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            background: #c1c1c1;
+        }
+        header nav ul {
+            display: none;
+            background: #eee;
+            position: absolute;
+            top: 25px;
+            right: 20px;
+            border-radius: 5px;
+            padding-left: 5px;
+        }
+        header nav ul li {
+            display: block;
+            margin: 20px 5px;
+        }
+        header nav ul li .fa {
+            margin-left: 20px;
+        }
+    }
+    
+    @media(max-width:842px) {
+        header {
+            background-size: unset;
+        }
+        header #landing {
+            padding-top: 8rem;
+            padding-left: 10rem;
+        }
+    }
+    
+    @media(max-width:800px) {
+        #offers #phone-img {
+            height: 80%;
+        }
+    }
+    
+    @media(max-width:770px) {
+        header #landing {
+            padding-left: 8rem;
+        }
+        #features p,
+        #products p {
+            margin: 10px;
+        }
+        #offers {
+            flex-direction: column-reverse;
+            padding: 15rem 0;
+        }
+        #offers .container {
+            align-items: center;
+        }
+    }
+    
+    @media(max-width:650px) {
+        #offers {
+            padding: 20rem 0;
+        }
+        #products .product .description {
+            height: 100px;
+        }
+        #products .product .description .stars,
+        #products .product .description .price {
+            position: unset;
+            display: block;
+            margin: 5px 10px;
+        }
+    }
+    
+    @media (max-width: 520px) {
+        section h2 {
+            font-size: 24px;
+        }
+        header #landing {
+            padding-left: 5rem;
+        }
+        #features .feature,
+        #products .product {
+            width: 100%;
+        }
+        #products .product .description .stars,
+        #products .product .description .price {
+            position: absolute;
+            display: initial;
+        }
+        #blog {
+            padding: 3rem 1rem;
+        }
+        #blog button {
+            padding: 5px 15px;
+        }
+    }
+    
+    @media (max-width:440px) {
+        header #landing h2 {
+            font-size: 45px;
+        }
+    }
